@@ -60,16 +60,32 @@ body{
     transform: translate(0%, 350%);
 }
 .x{
-  margin: auto;
-  border: 1px solid #ccc;
-  float: left;  
-  width: 600px;
-  height: 500px;
-  text-align: center;
+    border-radius: 5px;
+    background-color: rgba(241, 246, 247, 0.925) ;
+    float: left;  
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    margin: 20px 37px;
+    box-shadow: 4px 4px 6px rgba(88, 85, 85, 0.2), -4px -4px 6px rgba(88, 85, 85, 0.2);
 }
 .y{
     font-size: large;
 }
+#myImg1 {
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+#myImg1:hover {opacity: 0.7;}
+#myImg2{
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+#myImg2:hover {opacity: 0.7;}
 .modal {
     display: none;
     position: fixed;
