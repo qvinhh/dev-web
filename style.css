@@ -100,24 +100,28 @@ body{
   }
   
   .core_team .core_member .member_img .social_media .fab{
-    color: #8c7ae6;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .core_team .core_member .member_img:hover .social_media{
     transform: scale(1);
   }
 .x{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.y{
+    margin: 20px;
     border-radius: 5px;
     background-color: rgba(241, 246, 247, 0.925) ;
-    float: left;  
     width: 600px;
     height: 465px;
     text-align: center;
-    margin: 20px 37px;
     box-shadow: 4px 4px 6px rgba(88, 85, 85, 0.2), -4px -4px 6px rgba(88, 85, 85, 0.2);
 }
-.y{
+.z{
     font-size: large;
 }
 #myImg1 {
