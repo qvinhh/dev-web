@@ -14,16 +14,88 @@
   <h1 class="a">Chúng tôi là ai?</h1>
     <div class="b">
         <div class="c">
-            <p>AzureAms Programming Club là câu lạc bộ chuyên sâu lập trình đầu tiên và duy nhất tại trường THPT Chuyên Hà Nội - Amsterdam.</p>
+            <h2>AzureAms Programming Club là câu lạc bộ chuyên sâu lập trình đầu tiên và duy nhất tại trường THPT Chuyên Hà Nội - Amsterdam.</h2>
         </div>
         <div class="d">
             <p>Azure là một sân chơi mới mẻ cho các bạn học sinh có đam mê lập trình cũng như có sự hứng thú với bộ môn CNTT (Công Nghệ Thông Tin). Giữa phong trào học tập lập trình trong phạm vi THCS & THPT Amsterdam nói chung hay tất cả trường học trên Hà Nội nói riêng đang trở nên ngày càng thịnh hành và thu hút được đông đảo các bạn học sinh, AzureAms Programing Club được thành lập vào năm 2021!</p>
             <p>Tại câu lạc bộ, các bạn sẽ được làm quen với những yêu cầu của việc phát triển các ứng dụng trong một môi trường chuyên nghiệp. Bên cạnh đó, chúng mình mong muốn có thể tạo dựng lên một cộng đồng với trọng tâm về lập trình, cùng nhau tham gia một số dự án mã nguồn mở trong và ngoài trường.</p>
             <p>Trong năm, chúng mình dự định sẽ tổ chức một số sự kiện như Hackathon thường niên, hay 5v5 Bug Hunt (thể thao điện tử). Các dự án sẽ mang lại cho từng thành viên có cơ hội tiếp xúc với nhiều mảng lập trình khác nhau nhằm phát triển và phát huy vai trò của bản thân một cách hết sức. Ngoài ra, một điểm đặc biệt tại Azure chính là do công việc có tính chất chủ yếu là online nên dịch bệnh sẽ hầu như không ảnh hưởng đến hoạt động của CLB.</p>
             <p>Bạn có niềm hứng thú sâu sắc với các sản phẩm điện tử, hay nhận thấy bản thân có khả năng lập trình mà chưa biết áp dụng ở đâu?</p>
-            <p>Chào mừng bạn tới AZUREAMS PROGRAMMING CLUB!</p>
+            <p style="text-align: center; font-size: 120%;"><strong>Chào mừng bạn tới AZUREAMS PROGRAMMING CLUB!</strong></p>
         </div>
     </div>
-    
+    <h1 style="text-align: center; color: rgb(1, 1, 99);">CORE TEAM</h1>
+    <div  class="e">
+        <div class="f">
+            <div class="g">
+                Thành Trung <br><br> Chủ tịch CLB
+            </div>
+            <img src="ntt.png" class="t">
+
+        </div>
+        <div class="f">
+            <div class="g">
+                Viết Hoàng <br><br> Phó chủ tịch CLB
+            </div>
+            <img src="tvh.png" class="t">
+
+        </div>
+        <div class="f">
+            <div class="g">
+                Lê Minh <br><br> Phó chủ tịch CLB
+            </div>
+            <img src="lmn.png" class="t">
+        </div>
+    </div>
+    <h1 style="text-align: center; color: rgb(1, 1, 99);">CÁC DỰ ÁN</h1>
+    <div class="x">
+        <img id="myImg1" src="timetable_beta_0.1.png" alt="Timetable App" width="100%" height="auto">
+        <div class="y">
+           <span style="text-align: center;font-weight: bold; font-size: 150%; line-height: 2;">Timetable App</span> <br>
+           Đơn giản hóa việc học Online. Join lớp học chỉ bằng 1 click. TKB mang khắp nơi chỉ bằng 1 link Website.
+        </div>
+    </div>
+    <div class="x">
+        <img id="myImg2" src="azureams_website_0_1release.png" alt="Website App" width="100%" height="auto">
+        <div class="y">
+            <span style="text-align: center;font-weight: bold; font-size: 150%; line-height: 2;">Website App</span> <br>
+            Website giới thiệu CLB với khả năng update vô tận. Sử dụng các kĩ thuật và nền tảng code mới nhất.
+         </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <script>
+        var modal = document.getElementById('myModal');
+        var img = document.getElementById('myImg1');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+    <script>
+        var modal = document.getElementById('myModal');
+        var img = document.getElementById('myImg2');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
 </body>
 </html>
